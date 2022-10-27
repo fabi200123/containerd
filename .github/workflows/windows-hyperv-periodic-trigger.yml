@@ -10,7 +10,7 @@ on:
 jobs:
 
   triggerWinIntegration:
-    if: github.repository == 'containerd/containerd'
+    if: github.repository == 'fabi200123/containerd'
     # NOTE(aznashwan, 11/24/21): GitHub actions do not currently support referencing
     # or evaluating any kind of variables in the `uses` clause, but this will
     # ideally be added in the future in which case the hardcoded reference to the
